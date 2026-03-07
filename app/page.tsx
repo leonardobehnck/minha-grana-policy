@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=SEU_APP_ID";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.minhagrana";
 
 export default function PrivacyPolicy() {
   const lastUpdated = "7 de março de 2026";
