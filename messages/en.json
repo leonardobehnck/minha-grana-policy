@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Privacy Policy – Minha Grana",
+    "description": "Privacy policy for the Minha Grana app."
+  },
+  "header": {
+    "subtitle": "Privacy Policy"
+  },
+  "lastUpdated": "Last updated: {date}",
+  "lastUpdatedDate": "March 7, 2026",
+  "sections": {
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "Welcome to <strong>Minha Grana</strong>, a personal finance management app that is open source and licensed under the <strong>MIT License</strong>. This Privacy Policy describes how the app works in relation to your data. Minha Grana is available on the <link>Google Play Store</link>."
+    },
+    "dataCollection": {
+      "title": "2. Data Collection",
+      "content1": "<strong>Minha Grana does not collect any personal data</strong>. All information entered in the app, such as income, expenses, categories, and goals, is stored exclusively in your device's local database and never leaves it.",
+      "content2": "There are no external servers, user accounts, registrations, or any form of data transmission to the internet."
+    },
+    "localStorage": {
+      "title": "3. Local Storage",
+      "content": "All your financial data is saved locally on your smartphone. This means:",
+      "item1": "Your data belongs exclusively to you.",
+      "item2": "No information is sent to third parties.",
+      "item3": "Android automatically backs up the app's data to your Google account, allowing you to restore your information when switching devices or reinstalling the app."
+    },
+    "permissions": {
+      "title": "4. Device Permissions",
+      "content": "Minha Grana only requests the permissions strictly necessary for its operation. No network, location, contacts, or camera permissions are required to use the app."
+    },
+    "openSource": {
+      "title": "5. Open Source",
+      "content": "Minha Grana is an open source project distributed under the <strong>MIT License</strong>. Anyone can inspect, modify, and redistribute the source code, which guarantees full transparency about how the app works and the absence of data collection."
+    },
+    "children": {
+      "title": "6. Children and Adolescents",
+      "content": "Since the app does not collect any data, it poses no risk to the privacy of users of any age group. However, use by minors should occur under the supervision of a guardian."
+    },
+    "changes": {
+      "title": "7. Changes to this Policy",
+      "content": "Any updates to this policy will be published on this page. Since there is no data collection, future changes tend to reflect only technical or legal modifications, with no impact on your privacy."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "content": "Questions or suggestions about this policy can be submitted directly in the project's public repository or sent by email:",
+      "email": "Email:",
+      "app": "App:",
+      "playStoreLink": "Minha Grana on Google Play"
+    }
+  },
+  "footer": "Minha Grana - MIT License."
+}
