@@ -1,11 +1,18 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
 const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.minhagrana";
 
+const PLAY_STORE_BADGES: Record<string, string> = {
+  pt: "https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png",
+  en: "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
+};
+
 export default function PrivacyPolicy() {
   const t = useTranslations();
+  const locale = useLocale();
+  const badgeSrc = PLAY_STORE_BADGES[locale] ?? PLAY_STORE_BADGES.en;
 
   return (
     <main className="min-h-screen bg-white">
@@ -112,6 +119,23 @@ export default function PrivacyPolicy() {
             </p>
           </div>
         </Section>
+      </div>
+
+      {/* Play Store badge */}
+      <div className="max-w-3xl mx-auto px-4 pb-10 flex justify-center">
+        <a
+          href={PLAY_STORE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={badgeSrc}
+            alt={t("header.playStoreBadgeAlt")}
+            className="h-16 w-auto"
+          />
+        </a>
       </div>
 
       {/* Footer */}

@@ -4,7 +4,8 @@
     "description": "Privacy policy for the Minha Grana app."
   },
   "header": {
-    "subtitle": "Privacy Policy"
+    "subtitle": "Privacy Policy",
+    "playStoreBadgeAlt": "Get it on Google Play"
   },
   "lastUpdated": "Last updated: {date}",
   "lastUpdatedDate": "March 7, 2026",

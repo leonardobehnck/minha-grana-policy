@@ -4,7 +4,8 @@
     "description": "Política de privacidade do aplicativo Minha Grana."
   },
   "header": {
-    "subtitle": "Política de Privacidade"
+    "subtitle": "Política de Privacidade",
+    "playStoreBadgeAlt": "Disponível no Google Play"
   },
   "lastUpdated": "Última atualização: {date}",
   "lastUpdatedDate": "7 de março de 2026",
